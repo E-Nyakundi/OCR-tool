@@ -1,0 +1,23 @@
+# Virtual environment
+ocr_venv/
+venv/
+env/
+
+# Output folders (OCR results)
+output/
+debug_*.png
+
+# Input images (optional, if you don't want to commit them)
+input/  
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE settings
+.vscode/
+.idea/
+
+# Tesseract temporary files
+*.log
